@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.footer {
+  text-align: center;
+  margin-top: auto;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.botao{
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  gap: 24px;
+  transition: background-color 0.3s;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  gap: 24px; /* Aumentado o espaçamento entre os botões */
+ 
+}
