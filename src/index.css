@@ -44,6 +44,7 @@ h1 {
   color:gainsboro;
   font-family: inherit;
   background-color: #1a1a1a;
+  text-align: center;
   cursor: pointer;
   transition: border-color 0.25s, background-color 0.25s;
 }
